@@ -1,0 +1,57 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(498,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\ACCOUNT_AUTHORITY.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\ACCOUNT_BLOCK_TYPE.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\CHARACTER_EQUIPMENT.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\CHARACTER_EQUIPMENT_TYPE.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\CHARACTER_FACE.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\CHARACTER_INFO.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\CHARACTER_TYPE.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\common\RESULT_CODE.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CHARACTER_CREATE_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CHARACTER_CREATE_S2C.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CHARACTER_INFO_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CHARACTER_INFO_S2C.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CHARACTER_NAME_DUPLICATION_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CHARACTER_NAME_DUPLICATION_S2C.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CONNECT_RESULT_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\CONNECT_RESULT_S2C.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\ENTER_LOBBY_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\ENTER_LOBBY_S2C.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\ENTER_MAP_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\ENTER_MAP_S2C.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\LOGIN_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\LOGIN_S2C.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\MESSAGE.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\SERVER_CONNECT_C2S.cs
+  파일 삭제 - D:\Project\Server\ProjectMC\Protocol\Generated\CSharp\protocol\SERVER_CONNECT_S2C.cs
+  .\Generated\CSharp\common\ACCOUNT_AUTHORITY.cs
+  .\Generated\CSharp\common\ACCOUNT_BLOCK_TYPE.cs
+  .\Generated\CSharp\common\CHARACTER_EQUIPMENT.cs
+  .\Generated\CSharp\common\CHARACTER_EQUIPMENT_TYPE.cs
+  .\Generated\CSharp\common\CHARACTER_FACE.cs
+  .\Generated\CSharp\common\CHARACTER_INFO.cs
+  .\Generated\CSharp\common\CHARACTER_TYPE.cs
+  .\Generated\CSharp\common\RESULT_CODE.cs
+          8개 파일이 복사되었습니다.
+  .\Generated\CSharp\protocol\CHARACTER_CREATE_C2S.cs
+  .\Generated\CSharp\protocol\CHARACTER_CREATE_S2C.cs
+  .\Generated\CSharp\protocol\CHARACTER_INFO_C2S.cs
+  .\Generated\CSharp\protocol\CHARACTER_INFO_S2C.cs
+  .\Generated\CSharp\protocol\CHARACTER_NAME_DUPLICATION_C2S.cs
+  .\Generated\CSharp\protocol\CHARACTER_NAME_DUPLICATION_S2C.cs
+  .\Generated\CSharp\protocol\CONNECT_RESULT_C2S.cs
+  .\Generated\CSharp\protocol\CONNECT_RESULT_S2C.cs
+  .\Generated\CSharp\protocol\ENTER_LOBBY_C2S.cs
+  .\Generated\CSharp\protocol\ENTER_LOBBY_S2C.cs
+  .\Generated\CSharp\protocol\ENTER_MAP_C2S.cs
+  .\Generated\CSharp\protocol\ENTER_MAP_S2C.cs
+  .\Generated\CSharp\protocol\LOGIN_C2S.cs
+  .\Generated\CSharp\protocol\LOGIN_S2C.cs
+  .\Generated\CSharp\protocol\MESSAGE.cs
+  .\Generated\CSharp\protocol\SERVER_CONNECT_C2S.cs
+  .\Generated\CSharp\protocol\SERVER_CONNECT_S2C.cs
+         17개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
