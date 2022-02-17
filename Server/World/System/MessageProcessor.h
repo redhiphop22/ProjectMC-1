@@ -29,6 +29,11 @@ public:
 		USER,
 		DATABASE,
 	};
+	enum class MESSAGE_GROUP_USER
+	{
+		NETWORK,
+		DATABASE,
+	};
 
 	using message_processor_user_t = s2::S2MessageProcessor<MessageInfo_User>;
 	using message_processor_db_t = s2::S2MessageProcessor<MessageInfo_DB>;

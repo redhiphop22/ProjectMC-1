@@ -82,9 +82,9 @@ void UserProcessor::PacketParsing(int32_t groupIdx, char* buffer)
 	s2::packet_size_t packetSize = *(s2::packet_size_t*)(&packetBuffer[0]); \
 	s2::packet_protocol_t packetProtocol = *(s2::packet_protocol_t*)(&packetBuffer[2]); \
 
-	switch(static_cast<MESSAGE_GROUP>(groupIdx))
+	switch(static_cast<MessageProcessor::MESSAGE_GROUP_USER>(groupIdx))
 	{
-	case MESSAGE_GROUP::NETWORK:
+	case MessageProcessor::MESSAGE_GROUP_USER::NETWORK:
 		{
 			const char* body = &packetBuffer[6];
 			auto iter = m_packetFunc.find(static_cast<protocol::MESSAGE>(packetProtocol));
@@ -98,7 +98,7 @@ void UserProcessor::PacketParsing(int32_t groupIdx, char* buffer)
 			}
 		}
 		break;
-	case MESSAGE_GROUP::DATABASE:
+	case MessageProcessor::MESSAGE_GROUP_USER::DATABASE:
 		{
 			const char* body = &packetBuffer[4];
 			auto iter = m_dbFunc.find(static_cast<protocol_svr::MESSAGE>(packetProtocol));

@@ -5,13 +5,6 @@ class UserMgr;
 
 class UserProcessor : public s2::S2Thread, s2::S2MessageReceiver
 {
-public:
-	enum class MESSAGE_GROUP
-	{
-		NETWORK,
-		DATABASE,
-	};
-
 	using sesion_func_t = bool(UserProcessor::*)(IOCPSession* session, const char* buffer, int32_t size);
 	using packet_func_t = bool(UserProcessor::*)(const char* buffer, int32_t size);
 

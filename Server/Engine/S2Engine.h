@@ -61,6 +61,7 @@ typedef unsigned __int64		uint64_t;
 #include ".\System\S2IOCPWorker.h"
 #include ".\System\S2IOCPWorkerMgr.h"
 #include ".\System\S2IOCP.h"
+#include ".\System\S2SocketConnector.h"
 
 #include ".\System\S2ADO.h"
 //#include ".\System\S2MySql.h"

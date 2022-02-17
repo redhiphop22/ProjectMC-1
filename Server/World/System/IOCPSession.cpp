@@ -36,7 +36,7 @@ bool IOCPSession::OnClose()
 
 bool IOCPSession::OnRecvPacket(int32_t idx, const char* packet, int32_t size)
 {
-	return MESSAGE_PROCESSOR().SnedPacket_User(static_cast<int32_t>(UserProcessor::MESSAGE_GROUP::NETWORK), idx, this, packet, size);
+	return MESSAGE_PROCESSOR().SnedPacket_User(static_cast<int32_t>(MessageProcessor::MESSAGE_GROUP_USER::NETWORK), idx, this, packet, size);
 }
 
 bool IOCPSession::SendPacket(protocol::MESSAGE messageID, flatbuffers::FlatBufferBuilder& fbb)

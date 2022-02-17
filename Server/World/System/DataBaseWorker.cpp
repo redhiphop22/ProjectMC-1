@@ -36,7 +36,7 @@ bool DataBaseWorker::RegistPacket()
 
 bool DataBaseWorker::Create(const char* host, const uint16_t port, const char* user, const char* pass, const char* database)
 {
-	MESSAGE_PROCESSOR().AddSender(MessageProcessor::MESSAGE_TYPE::USER, static_cast<int32_t>(UserProcessor::MESSAGE_GROUP::NETWORK), m_idx, 100);	
+	MESSAGE_PROCESSOR().AddSender(MessageProcessor::MESSAGE_TYPE::USER, static_cast<int32_t>(MessageProcessor::MESSAGE_GROUP_USER::NETWORK), m_idx, 100);
 
 	if(false == m_db.Create(host, port, user, pass, database))
 	{
@@ -88,7 +88,7 @@ bool DataBaseWorker::OnThreadUpdate()
 
 bool DataBaseWorker::SendPacket(protocol_svr::MESSAGE message, flatbuffers::FlatBufferBuilder& fbb)
 {
-	return MESSAGE_PROCESSOR().SnedPacket_User(static_cast<int32_t>(UserProcessor::MESSAGE_GROUP::DATABASE), m_idx, message, fbb);
+	return MESSAGE_PROCESSOR().SnedPacket_User(static_cast<int32_t>(MessageProcessor::MESSAGE_GROUP_USER::DATABASE), m_idx, message, fbb);
 }
 
 bool DataBaseWorker::SERVER_CONNECT_DB_REQ(const char* buffer, int32_t size)

@@ -101,7 +101,6 @@ bool S2MySql::TransBegin()
 bool S2MySql::TransCommit()
 {
 	return mysql_commit(m_connection);
-	mysql_autocommit(m_connection, false);
 }
 
 bool S2MySql::TransRollback()

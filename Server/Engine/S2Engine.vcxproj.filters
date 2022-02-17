@@ -80,6 +80,9 @@
     <ClCompile Include="System\S2ThreadPool.cpp">
       <Filter>System\Thread</Filter>
     </ClCompile>
+    <ClCompile Include="System\S2SocketConnector.cpp">
+      <Filter>System\Network</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="S2Engine.h" />
@@ -169,6 +172,9 @@
     </ClInclude>
     <ClInclude Include="System\S2ThreadPool.h">
       <Filter>System\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="System\S2SocketConnector.h">
+      <Filter>System\Network</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

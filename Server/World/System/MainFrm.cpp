@@ -27,7 +27,7 @@ bool MainFrm::OnInit()
 	auto& workerList = m_workerMgr.GetWorkerList();
 	for(auto worker : workerList)
 	{
-		MESSAGE_PROCESSOR().AddSender(MessageProcessor::MESSAGE_TYPE::USER, static_cast<int32_t>(UserProcessor::MESSAGE_GROUP::DATABASE), worker->GetIdx(), 100);
+		MESSAGE_PROCESSOR().AddSender(MessageProcessor::MESSAGE_TYPE::USER, static_cast<int32_t>(MessageProcessor::MESSAGE_GROUP_USER::DATABASE), worker->GetIdx(), 100);
 	}
 
 	if(false == m_sessionMgr.Create(sessionCount))
